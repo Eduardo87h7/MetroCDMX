@@ -31,7 +31,7 @@
 
                 </div>
 
-                    <H3>Espacio para trabajar</H3>
+                    <H3 id="trabb">Pagina de inicio</H3>
   <div class="modal1">
 <!-- Button to Open the Modal -->
 
@@ -101,8 +101,8 @@
   <div class="container" id="tabla1">
     <input class="form-control" id="myInput" type="text" placeholder="BUSCAR">
     <br>
-    <table  class="table table-bordered table-striped">
-      <thead>
+    <table  class="table table-bordered table-striped table-hover">
+      <thead class="thead-dark">
         <tr>
           <th>USUARIOS</th>
           <th>AREA</th>
@@ -138,8 +138,8 @@
   <div class="container" id="tabla2">
     <input class="form-control" id="myInput2" type="text" placeholder="BUSCAR">
     <br>
-    <table  class="table table-bordered table-striped table table-success table-striped"">
-      <thead>
+    <table  class="table table-bordered table-striped table-hover">
+      <thead class="thead-dark">
         <tr>
           <th>USUARIOS1</th>
           <th>AREA</th>
@@ -158,7 +158,7 @@
           <td><a href="#">112</a></td>
         </tr>
         <tr>
-          {{h4}}
+         
           <td>USUARIO3</td>
           <td>LINEA3</td>
           <td><a href="#">732</a></td>
@@ -174,7 +174,43 @@
     <p>RESULTADOS RECIENTES</p>
   </div>
 
-
+  <div class="container" id="tabla3">
+    <input class="form-control" id="myInput3" type="text" placeholder="BUSCAR">
+    <br>
+    <table  class="table table-bordered table-striped table-hover">
+      <thead class="thead-dark">
+        <tr>
+         
+          <th>AREA</th>
+          <th>CANTIDAD</th>
+        </tr>
+      </thead>
+      <tbody id="myTable3">
+        <tr>
+          
+          <td>LINEA1</td>
+          <td ><a href="#" >72</a> </td>
+        </tr>
+        <tr>
+          
+          <td>LINEA2</td>
+          <td><a href="#">112</a></td>
+        </tr>
+        <tr>
+         
+          <td>LINEA3</td>
+          <td><a href="#">732</a></td>
+        </tr>
+        <tr>
+         
+          <td>LINEA4</td>
+          <td><a href="#">991</a></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <p>RESULTADOS RECIENTES</p>
+  </div>
                     
                 </div>
         </div>
@@ -200,7 +236,7 @@
             </a>
           
         </li>
-        <li onclick="tablass()" class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal" >
+        <li  class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal" >
             <a href="#">
                 <i class="fa  fa-2x">
                     <svg  width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
@@ -229,7 +265,7 @@
             </a>
             
         </li>
-        <li class="has-subnav" >
+        <li class="has-subnav" onclick="tablasss()">
             <a href="#" >
                <i class="fa  fa-2x">
                 <svg  width="16" height="16" fill="currentColor" class="bi bi-file-earmark-richtext-fill" viewBox="0 0 16 16">

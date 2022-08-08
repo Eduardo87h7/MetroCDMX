@@ -8,10 +8,10 @@ font-size: 2em;
 position: relative;
 display: table-cell;
 width: 60px;
-height: 46px;
+height: 66px;
 text-align: center;
 vertical-align: middle;
-font-size:20px;
+font-size:40px;
 }
 
 .pri{
@@ -152,21 +152,25 @@ a {
     color: #5d5720;
   }
   
+  
   a:visited {
     color: #373309;
   }
   
   a:focus {
     border-bottom: 1px solid;
-    background: #ef7417;
+    background: #c4cd1e;
+    border-radius: 5px;
   }
   
   a:hover {
     border-bottom: 1px solid;
-    background: #CDFEAA;
+    background: #d5a229;
+    border-radius: 5px;
   }
   
   a:active {
     background: #f0dc2f;
     color: #CDFEAA;
+    border-radius: 5px;
   }

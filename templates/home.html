@@ -23,7 +23,7 @@
                     <nav class="navbar navbar-light bg-light justify-content-between">
                         <img src="/img/STC_Metro.webp" width="20%" alt="">
 
-                        <a class="navbar-brand sub" >SUBCOORDINACIONES TLATELOLCO</a>
+                        <p class="navbar-brand sub" >SUBCOORDINACIONES TLATELOLCO</P>
 
                         <img src="/img/tlatelolco.png" width="70" alt="">
                       </nav>
@@ -45,12 +45,44 @@
         <div class="modal-header">
           <h4 class="modal-title">SUBCOORDINACIONES</h4>
           
-          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          <button type="button" class=" btn btn-close btn-danger" data-bs-dismiss="modal" >X</button>
         </div>
   
         <!-- Modal body -->
         <div class="modal-body">
 
+  <div class="shadow-lg p-3 mb-5 bg-body rounded">PRIMER USIARIO</div>
+
+<table>
+  <tr>
+    <th>
+      nombre
+    </th>
+
+    <th>
+      AREA
+    </th>
+   
+    <th>
+      CARGO
+    </th>
+    
+  </tr>
+  <tr>
+    <td>
+      JOSE EDUARDO GARCIA
+    </td>
+
+    <td>
+      RECIDENCIAS PROFECIONALES
+    </td>
+   
+    <td>
+      ESTUDIANTE
+    </td>
+    
+  </tr>
+</table>
        
 
 
@@ -58,7 +90,7 @@
   
         <!-- Modal footer -->
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">salir</button>
         </div>
   
       </div>
@@ -81,29 +113,66 @@
         <tr>
           <td>USUARIO1</td>
           <td>LINEA1</td>
-          <td>72</td>
+          <td ><a href="#" >72</a> </td>
         </tr>
         <tr>
           <td>USUARIO2</td>
           <td>LINEA2</td>
-          <td>987</td>
+          <td><a href="#">112</a></td>
         </tr>
         <tr>
           <td>USUARIO3</td>
           <td>LINEA3</td>
-          <td>77</td>
+          <td><a href="#">732</a></td>
         </tr>
         <tr>
           <td>USUARIO4</td>
           <td>LINEA4</td>
-          <td>876</td>
+          <td><a href="#">991</a></td>
         </tr>
       </tbody>
     </table>
     
     <p>RESULTADOS RECIENTES</p>
   </div>
-  
+  <div class="container" id="tabla2">
+    <input class="form-control" id="myInput2" type="text" placeholder="BUSCAR">
+    <br>
+    <table  class="table table-bordered table-striped table table-success table-striped"">
+      <thead>
+        <tr>
+          <th>USUARIOS1</th>
+          <th>AREA</th>
+          <th>CANTIDAD</th>
+        </tr>
+      </thead>
+      <tbody id="myTable2">
+        <tr>
+          <td>USUARIO2</td>
+          <td>LINEA1</td>
+          <td ><a href="#" >72</a> </td>
+        </tr>
+        <tr>
+          <td>USUARIO2</td>
+          <td>LINEA2</td>
+          <td><a href="#">112</a></td>
+        </tr>
+        <tr>
+          {{h4}}
+          <td>USUARIO3</td>
+          <td>LINEA3</td>
+          <td><a href="#">732</a></td>
+        </tr>
+        <tr>
+          <td>USUARIO4</td>
+          <td>LINEA4</td>
+          <td><a href="#">991</a></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <p>RESULTADOS RECIENTES</p>
+  </div>
 
 
                     
@@ -174,7 +243,7 @@
            
         </li>
         <li>
-            <a href="/templates/envio.html">
+            <a href="/templates/envio.html" >
                 <i class="fa  fa-2x">
                     <svg  width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square-fill" viewBox="0 0 16 16">
                         <path d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM5.904 10.803 10 6.707v2.768a.5.5 0 0 0 1 0V5.5a.5.5 0 0 0-.5-.5H6.525a.5.5 0 1 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 .707.707z"/>

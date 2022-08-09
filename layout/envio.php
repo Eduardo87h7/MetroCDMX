@@ -4,7 +4,7 @@
     
 <div class="container mt-3">
 
-<div class="card">
+<div class="card shadow-lg  rounded">
   <div class="card-header">
     <a href="/MetroCDMX/index.php" class="btn btn-primary">regresar</a> Envio de Informacion
   </div>
@@ -38,8 +38,5 @@
       </div>
     </div>
   
-    
-    
-    <p class="card-text">Pulsa el boton para enviar</p>
     <a href="#" class="btn btn-primary">Enviar</a>
   

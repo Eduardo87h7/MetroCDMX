@@ -1,26 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Enviar</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="/MetroCDMX/css/bootstrap.min.css" rel="stylesheet">
-  <script src="/MetroCDMX/js/bootstrap.bundle.min.js"></script>
-</head>
-<body>
 
 
-  <div class="container mt-3">
+<div class="container" id="enviar">
+    
+<div class="container mt-3">
 
 <div class="card">
   <div class="card-header">
-    <a href="/MetroCDMX//templates/home.html" class="btn btn-primary">regresar</a> Envio de Informacion
+    <a href="/MetroCDMX/index.php" class="btn btn-primary">regresar</a> Envio de Informacion
   </div>
   <div class="card-body">
     <h5 class="card-title">Selecciona y Envia</h5>
-    
-      <h2>Destino</h2>
-      <p>Selecciona a quien quieres enviar </p>
     
       <div class="dropdown">
         <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
@@ -53,10 +42,4 @@
     
     <p class="card-text">Pulsa el boton para enviar</p>
     <a href="#" class="btn btn-primary">Enviar</a>
-  </div>
-</div>
-
-
-
-</body>
-</html>
+  

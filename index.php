@@ -46,20 +46,25 @@
                                     <div class="form-outline mb-4">
                                       <input type="password" name="txtpassword" id="txtpassword" class="form-control form-control-lg" />
                                       <label class="form-label" >Contraseña</label>
+                                      <br>
+                                      <input type="checkbox" class="form-check-input" onclick="verpassword()" >Mostrar contraseña
                                     </div>
-                                    <input type="checkbox" onclick="verpassword()" >Mostrar contraseña
+                                    
 
                                    
 
-                                    <div  class="pt-1 mb-4">
-                                    <input type="submit" value="Ingresar" class="btn btn-dark  btn-block" >
+                                    
                                         
-                                        <input type="reset" value="Cancelar" class="btn btn-warning"  btn-block" >
-                                        <select name="tipo">
+                                        <select name="tipo" class="form-select" aria-label="Default select example">
                                     <option value="0" style="display:none;"><label>Seleccionar</label></option>
                                     <option value="local">local</option>
                                     <option value="admin">admin</option>
                                     </select>
+<hr>
+                                    <div  class="">
+                                    <input type="submit" value="Ingresar" class="btn btn-dark  btn-block" >
+                                        
+                                        <input type="reset" value="Cancelar" class="btn btn-warning  btn-block" >
                                     </div>
                   
                                 

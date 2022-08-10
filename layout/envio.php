@@ -6,7 +6,7 @@
 
 <div class="card shadow-lg  rounded">
   <div class="card-header">
-    <a href="/MetroCDMX/index.php" class="btn btn-primary">regresar</a> Envio de Informacion
+    <a href="/MetroCDMX/home.php" class="btn btn-primary">regresar</a> Envio de Informacion
   </div>
   <div class="card-body">
     <h5 class="card-title">Selecciona y Envia</h5>

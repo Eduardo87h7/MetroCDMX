@@ -11,7 +11,7 @@
         <div class="modal-header">
           <h4 class="modal-title">SUBCOORDINACIONES</h4>
           
-          <button type="button" class=" btn btn-close btn-danger" data-bs-dismiss="modal" >X</button>
+          <button type="button" class=" btn btn-close btn-danger" data-bs-dismiss="modal" ></button>
         </div>
   
         <!-- Modal body -->

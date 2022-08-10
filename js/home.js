@@ -27,6 +27,11 @@ $(document).ready(function(){
   
 
 
+    
+function salir(){
+  window.location= 'index.php' 
+  
+}
 
   document.getElementById("tabla2").style.display = "none";
   document.getElementById("tabla3").style.display = "none";

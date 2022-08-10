@@ -1,4 +1,8 @@
-<?php require('./layout/header.php') ?>
+
+<?php require('./layout/header2.php') ?>
+
+<?php require('./layout/exit.php') ?>
+<?php require('./layout/adminav.php') ?>
 
 <table class="table table-bordered table-striped table-hover">
 <th>Usuario</th>

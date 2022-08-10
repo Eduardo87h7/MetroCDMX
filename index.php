@@ -31,8 +31,7 @@
                   
                                     <div class="d-flex align-items-center mb-3 pb-1">
                                       <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
-                                      <span class="h1 fw-bold mb-0">I
-
+                                      <span class="h1 fw-bold mb-0">
                                         <img src="/MetroCDMX/img/STC_Metro.webp" width="300px" alt="">
                                       </span>
                                     </div>
@@ -55,7 +54,7 @@
                                     <div  class="pt-1 mb-4">
                                     <input type="submit" value="Ingresar" class="btn btn-dark  btn-block" >
                                         
-                                        <input type="reset" value="Cancelar" class="btn btn-dark  btn-block" >
+                                        <input type="reset" value="Cancelar" class="btn btn-warning"  btn-block" >
                                         <select name="tipo">
                                     <option value="0" style="display:none;"><label>Seleccionar</label></option>
                                     <option value="local">local</option>

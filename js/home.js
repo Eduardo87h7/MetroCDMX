@@ -25,25 +25,11 @@ $(document).ready(function(){
     });
   });
   
-  function verpassword(){
-    var tipo = document.getElementById("txtpassword");
-    if(tipo.type == "password")
-  {
-        tipo.type = "text";
-    }
-  else
-  {
-        tipo.type = "password";
-    }
-}
-  
+
+
     
 function salir(){
   window.location= 'index.php' 
-  
-}
-function retorno(){
-  window.location= 'admin.php' 
   
 }
 
@@ -53,8 +39,8 @@ function retorno(){
 
 
 function tablas(){
-    document.getElementById("tabla1").style.display = "block";
-  document.getElementById("tabla2").style.display = "none";
+    document.getElementById("tabla1").style.display = "none";
+  document.getElementById("tabla2").style.display = "block";
   document.getElementById("tabla3").style.display = "none";
   document.getElementById("trabb").innerHTML = "Todos Los Documentos";
   document.getElementById("enviar").style.display = "none";

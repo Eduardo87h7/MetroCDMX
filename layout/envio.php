@@ -11,21 +11,13 @@
   <div class="card-body">
     <h5 class="card-title">Selecciona y Envia</h5>
     
-      <div class="dropdown">
-        <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
-          Seleccionar
-        </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">LINEA1</a></li>
-          <li><a class="dropdown-item" href="#">LINEA2</a></li>
-          <li><a class="dropdown-item" href="#">LINEA3</a></li>
-          <li><a class="dropdown-item" href="#">LINEAB</a></li>
-          <li><a class="dropdown-item" href="#">LINEA6</a></li>
-          <li><a class="dropdown-item" href="#">LINEA7</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">solo texto</a></li>
-        </ul>
-      </div>
+    <select name="area" class="form-select" aria-label="Default select example">
+                                    <option value="0" style="display:none;"><label>Seleccionar</label></option>
+                                    <option value="linea3">Linea 3</option>
+                                    <option value="lineaB">Linea B</option>
+                                    <option value="linea6">Linea 6</option>
+                                    <option value="linea7">Linea 7</option>
+                                    </select>
       <hr>
       <form name="formulario" method="post" action="/send.php" enctype="multipart/form-data">
         <!-- ¡No olvides el enctype! -->

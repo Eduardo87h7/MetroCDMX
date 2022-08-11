@@ -1,8 +1,8 @@
 
 <?php require('./layout/header2.php') ?>
+
 <?php require('./layout/agregarUsuarios.php') ?>
 <?php require('./layout/exit.php') ?>
-
 <?php require('./layout/adminav.php') ?>
 
 <div id="resultado">

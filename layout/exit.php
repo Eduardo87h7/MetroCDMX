@@ -15,15 +15,15 @@
         <!-- Modal body -->
         <div class="modal-body">
 
-  <div class="shadow-lg p-3 mb-4 bg-body rounded"><h6>si estas seguro de abandonar esta pagina presiona el boton</h6>
-</div>  <a href="#" class="btn btn-warning" onclick="salir()">salir</a>
+  <div class="shadow-lg p-3 mb-4 bg-body rounded"><h6>si estas seguro de abandonar esta pagina presiona el boton</h6></div> 
+    <a href="#" class="btn btn-warning" onclick="salir()">salir</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 
 
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+

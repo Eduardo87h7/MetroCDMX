@@ -14,7 +14,7 @@
   
         <!-- Modal body -->
         <div class="modal-body">
-        <form method="post">
+        <form method="post" action="admin.php">
                                 
                   
                         
@@ -55,5 +55,8 @@
     
 </div>
 </div>
- 
+</div>
+</div>
+</div>
+
 

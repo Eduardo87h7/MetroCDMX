@@ -12,23 +12,23 @@
       <tbody id="myTable">
         <tr>
           <td>USUARIO1</td>
-          <td>LINEA1</td>
-          <td ><a href="#" >72</a> </td>
+          <td>LINEA 3</td>
+          <td ><a href="#" class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal2"  >72</a> </td>
         </tr>
         <tr>
           <td>USUARIO2</td>
-          <td>LINEA2</td>
-          <td><a href="#">112</a></td>
+          <td>LINEA 6</td>
+          <td><a href="#" class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal3">112</a></td>
         </tr>
         <tr>
           <td>USUARIO3</td>
-          <td>LINEA3</td>
-          <td><a href="#">732</a></td>
+          <td>LINEA 7</td>
+          <td><a href="#" class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal4">732</a></td>
         </tr>
         <tr>
           <td>USUARIO4</td>
-          <td>LINEA4</td>
-          <td><a href="#">991</a></td>
+          <td>LINEA B</td>
+          <td><a href="#" class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal5">991</a></td>
         </tr>
       </tbody>
     </table>

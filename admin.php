@@ -1,40 +1,36 @@
-
 <?php require('./layout/header2.php') ?>
-
 <?php require('./layout/exit.php') ?>
 <?php require('./layout/agregarUsuarios.php') ?>
 <?php require('./layout/adminav.php') ?>
-
-<table class="table table-bordered table-striped table-hover">
-<th>Usuario</th>
-<th>Contraseña</th>
-<th>Tipo</th>
-
-</tr>
-
 <?php
-
- include('conexion.php');
-
-$sql="select * from usuarios";
-$resultado=mysqli_query($conn,$sql);
-
-while($mostrar=mysqli_fetch_array($resultado))
-
-{
+	include("delete.php");
 ?>
-
-<tr>
-	<td><?php echo $mostrar['usuario'] ?></td>
-	<td><?php echo $mostrar['contraseña'] ?></td>
-	<td><?php echo $mostrar['tipo'] ?></td>
-</tr>
-
-
-<?php
-}
-?>
-
+<table  class="table table-bordered table-striped table-hover" >
+	<tr>
+		<th>Usuarios</th>
+		<th>Contraseña</th>
+		<th>Tipo</th>
+		<th>Eliminar</th>
+	</tr>
+<?php 
+	$sql = "select * from usuarios";
+	$result = db_query($sql);
+	while($row = mysqli_fetch_object($result)){
+	?>
+	<tr>
+		<td><?php echo $row->usuario;?></td>
+		<td><?php echo $row->contraseña;?></td>
+		<td><?php echo $row->tipo;?></td>
+			
+		<td>
+   <a class="btn btn-danger" href="borrar.php?id=
+   <?php echo $row->id;?>">
+   <i  aria-hidden="true">X</i>
+   </a>
+        </td>
+	</tr>
+	<?php } ?>
+</table>
 
 </table>
 

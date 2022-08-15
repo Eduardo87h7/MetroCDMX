@@ -12,7 +12,7 @@ if(!file_exists("archivos")){
 
 chmod("archivos",0777);
 
-if(move_uploaded_file($_FILES['fichero']['tmp_name'],"C:/Users/Eduardo/OneDrive - INSTITUTO TECNOLOGICO DE GUSTAVO A MADERO/Escritorio/archivos/".$_FILES['fichero']['name'])){
+if(move_uploaded_file($_FILES['fichero']['tmp_name'],"C:/Users/Usuario/Desktop/archivos/".$_FILES['fichero']['name'])){
     echo "Archivo subido con exito";
 }else{
     echo "Error al subir el archivo";

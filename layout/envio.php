@@ -13,8 +13,15 @@
     
   
       <hr>
-      <form action="carga.php" method="POST" enctype="multipart/form-data" >
-        <input type="file" name="fichero">
+     <form method="POST" action="subir-arch.php" enctype="multipart/form-data">
+<div class="form-group">
+              <label  for="my-file-selector">
+                <input class="" required="" type="file" name="file" id="exampleInputFile">
+              </label>
+              
+</div>
+<br>
+
 <hr>
         <select name="area" class="form-select" aria-label="Default select example">
                                     <option value="0" style="display:none;"><label>Seleccionar</label></option>
@@ -30,8 +37,9 @@
       </div>
     </div>
 
-                                    <button type="submit" class="btn btn-primary">Enviar</button>
-      </form>
+    <button class="btn btn-primary" type="submit">Cargar Fichero</button>
+          <br>
+          </form>
      
 
    

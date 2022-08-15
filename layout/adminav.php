@@ -48,7 +48,7 @@
             </a>
             
         </li>
-        <li class="has-subnav" onclick="contenido()">
+        <li class="has-subnav" onclick="archivos()">
             <a href="#" >
                <i class="fa  fa-2x">
                 <svg  width="16" height="16" fill="currentColor" class="bi bi-file-earmark-richtext-fill" viewBox="0 0 16 16">

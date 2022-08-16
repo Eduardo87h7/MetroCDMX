@@ -1,48 +1,23 @@
-<?php require('./layout/header2.php') ?>
-<?php require('./layout/exit.php') ?>
-<?php require('./layout/agregarUsuarios.php') ?>
-<?php require('./layout/adminav.php') ?>
-<?php
-include("delete.php");
-?>
+<!DOCTYPE html>
+<html lang="en">
 
-<div id="tabla-usuarios">
-	<table class="table table-bordered table-striped table-hover">
-		<tr>
-			<th>Usuarios</th>
-			<th>Contraseña</th>
-			<th>Tipo</th>
-			<th>Eliminar</th>
-		</tr>
-		<?php
-		$sql = "select * from usuarios";
-		$result = db_query($sql);
-		while ($row = mysqli_fetch_object($result)) {
-		?>
-			<tr>
-				<td><?php echo $row->usuario; ?></td>
-				<td><?php echo $row->contraseña; ?></td>
-				<td><?php echo $row->tipo; ?></td>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-				<td>
-					<a class="btn btn-danger" href="borrar.php?id=
-                         <?php echo $row->id; ?>">
-						<i aria-hidden="true">X</i>
-					</a>
-				</td>
-			</tr>
-		<?php } ?>
-	</table>
-
-</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
+    
 
+</head>
 
-<div id="tabla-archivos">
-	<div class="container" id="myTable0">
-		<input class="form-control" id="myInput0" type="text" placeholder="BUSCAR">
-		<br>
+<body>
+    <div class="container" id="tabla0">
+        <input class="form-control" id="myInput0" type="text" placeholder="BUSCAR">
+        <br>
 		<table class="table table-responsive-lg">
 			<thead>
 				<tr>
@@ -75,7 +50,10 @@ include("delete.php");
 	</div>
 </div>
 
-<script>
+    </div>
+
+
+    <script>
         $(document).ready(function() {
             $("#myInput0").on("keyup", function() {
                 var value = $(this).val().toLowerCase();
@@ -85,7 +63,7 @@ include("delete.php");
             });
         });
     </script>
-	
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="/MetroCDMX/js/admin.js"></script>
 </body>
+
+
+</html>

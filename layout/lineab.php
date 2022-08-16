@@ -1,76 +1,62 @@
-<div class="modal1 modal-xl" >
-  
+<div class="modal1 modal-xl">
+
   <!-- The Modal -->
   <div class="modal  fade  bd-example-modal-xl" id="myModal5">
     <div class="modal-dialog modal-xl">
       <div class="modal-content">
-  
+
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">Documentos de la linea B</h4>
-          
-          <button type="button" class=" btn btn-close btn-danger" data-bs-dismiss="modal" ></button>
+
+          <button type="button" class=" btn btn-close btn-danger" data-bs-dismiss="modal"></button>
         </div>
-  
+
         <!-- Modal body -->
         <div class="modal-body">
 
-        <div class="container" id="tabla7">
+          <div class="container" id="tabla7">
 
-    <input class="form-control" id="myInput7" type="text" placeholder="BUSCAR">
-    <br>
-    <table  class="table table-bordered table-striped table-hover">
+            <input class="form-control" id="myInput7" type="text" placeholder="BUSCAR">
+            <br>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>num</th>
+                  <th>Nombre del Archivo</th>
+                  <th>Descargar</th>
+                  <th>Eliminar</th>
+                </tr>
+              </thead>
+              <tbody id="myTable7">
+                <?php
+                $archivos = scandir("subidas");
+                $num = 0;
+                for ($i = 2; $i < count($archivos); $i++) {
+                  $num++;
+                ?>
+                  <p>
+                  </p>
 
-      <thead class="thead-dark">
-        <tr>
-          <th>Archivos</th>
-          
-        </tr>
-      </thead>
-      <tbody id="myTable7">
-        <tr>
-          <td>USUARIO1</td>
-        </tr>
-        <tr>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>USUARIO1</td>
-        </tr>
-        <tr>
-          <td>USUARIO1</td>
-        </tr>
-        <tr>
-          <td>USUARIO5</td>
-        </tr>
-        <tr>
-          <td>USUARIO1</td>
-        </tr>
-        <tr>
-          <td>USUARIO1</td>
-        </tr>
-        <tr>
-          <td>USUARIO1</td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <p>RESULTADOS RECIENTES</p>
+                  <tr>
+                    <th scope="row"><?php echo $num; ?></th>
+                    <td><?php echo $archivos[$i]; ?></td>
+                    <td><a title="Descargar Archivo" href="subidas/<?php echo $archivos[$i]; ?>" download="<?php echo $archivos[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">descargar</span> </a></td>
+                    <td><a title="Eliminar Archivo" href="Eliminar.php?name=subidas/<?php echo $archivos[$i]; ?>" style="color: red; font-size:18px;" onclick="return confirm('El archivo se eliminara permanentemente');"> <span aria-hidden="true">eliminar</span> </a></td>
+                  </tr>
+                <?php } ?>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="shadow-lg p-3 mb-4 bg-body rounded"><h6>ver informacion en una nueva pagina</h6>
-</div>  <a href="#" class="btn btn-warning" onclick="linea3()">ver en pagina nueva</a>
+</div>
 
-
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 <script>
-  $(document).ready(function(){
+  $(document).ready(function() {
     $("#myInput7").on("keyup", function() {
       var value = $(this).val().toLowerCase();
       $("#myTable7 tr").filter(function() {

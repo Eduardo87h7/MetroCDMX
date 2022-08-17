@@ -54,6 +54,7 @@ include("delete.php");
 			<tbody id="myTable0">
 				<?php
 				$docs = scandir("subidas/");
+				
 				$num = 0;
 				$i=2;
 				for ($i ; $i < count($docs); $i++) {

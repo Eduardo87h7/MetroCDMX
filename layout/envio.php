@@ -17,7 +17,7 @@
           <select name="area" class="form-select" aria-label="Default select example">
             <option value="0" style="display:none;"><label>Seleccionar</label></option>
             <option value="linea3">Linea 3</option>
-            <option value="lineaB">Linea B</option>
+            <option value="lineab">Linea B</option>
             <option value="linea6">Linea 6</option>
             <option value="linea7">Linea 7</option>
           </select>

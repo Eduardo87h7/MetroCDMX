@@ -5,3 +5,4 @@ $conn = new mysqli("localhost","root","","metro");
 	{
 		echo "error de conexion: (" . $conn->connect_errno . ") " . $conn->connect_error;
 	}
+?>

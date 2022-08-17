@@ -32,6 +32,5 @@
       </tr>
     </tbody>
   </table>
-
   <p>RESULTADOS RECIENTES</p>
 </div>

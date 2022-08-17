@@ -15,7 +15,7 @@ include("delete.php");
 			<th>Eliminar</th>
 		</tr>
 		<?php
-		$sql = "select * from usuarios";
+		$sql = "SELECT * from usuarios";
 		$result = db_query($sql);
 		while ($row = mysqli_fetch_object($result)) {
 		?>
@@ -23,10 +23,8 @@ include("delete.php");
 				<td><?php echo $row->usuario; ?></td>
 				<td><?php echo $row->contraseña; ?></td>
 				<td><?php echo $row->tipo; ?></td>
-
 				<td>
-					<a class="btn btn-danger" href="borrar.php?id=
-                         <?php echo $row->id; ?>">
+					<a class="btn btn-danger" href="borrar.php?id=<?php echo $row->id; ?>">
 						<i aria-hidden="true">X</i>
 					</a>
 				</td>
@@ -43,10 +41,11 @@ include("delete.php");
 	<div class="container" id="myTable0">
 		<input class="form-control" id="myInput0" type="text" placeholder="BUSCAR">
 		<br>
-		<table class="table table-responsive-lg">
+		<table class="table table-bordered table-striped table-hover">
 			<thead>
 				<tr>
-					<th>num</th>
+					<th>Numero</th>
+					<th>Linea</th>
 					<th>Nombre del Archivo</th>
 					<th>Descargar</th>
 					<th>Eliminar</th>
@@ -54,31 +53,31 @@ include("delete.php");
 			</thead>
 			<tbody id="myTable0">
 				<?php
-				$archivos = scandir("subidas/");
+				$docs = scandir("subidas/");
 				$num = 0;
-				for ($i = 2; $i < count($archivos); $i++) {
+				$i=2;
+				for ($i ; $i < count($docs); $i++) {
 					$num++;
 				?>
 					<p>
 					</p>
-
-					<tr>
-						<th scope="row"><?php echo $num; ?></th>
-						<td><?php echo $archivos[$i]; ?></td>
-						<td><a title="Descargar Archivo" href="subidas/<?php echo $archivos[$i]; ?>" download="<?php echo $archivos[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">descargar</span> </a></td>
-						<td><a title="Eliminar Archivo" href="Eliminar.php?name=subidas/<?php echo $archivos[$i]; ?>" style="color: red; font-size:18px;" onclick="return confirm('El archivo se eliminara permanentemente');"> <span aria-hidden="true">eliminar</span> </a></td>
+					<tr>					    
+						<th><?php echo $num; ?></th>
+						<td>Linea B</td>
+						<td><?php echo $docs[$i]; ?></td>
+						<td><a title="Descargar" href="subidas/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>
+						<td><a title="Eliminar" href="Eliminar.php?name=subidas/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return alert('El archivo se eliminara permanentemente');"> <span aria-hidden="true">Eliminar</span> </a></td>
 					</tr>
-				<?php } ?>
-
+				<?php } 
+				?>
 			</tbody>
 		</table>
 	</div>
 </div>
-
 <script>
         $(document).ready(function() {
             $("#myInput0").on("keyup", function() {
-                var value = $(this).val().toLowerCase();
+                let value = $(this).val().toLowerCase();
                 $("#myTable0 tr").filter(function() {
                     $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
                 });

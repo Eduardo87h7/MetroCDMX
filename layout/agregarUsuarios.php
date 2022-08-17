@@ -24,8 +24,12 @@
             </div>
             <select name="tipo" type="text" class="form-select" aria-label="Default select example">
               <option value="0" style="display:none;"><label>Seleccionar</label></option>
-              <option value="local">local</option>
+              <option value="lineab">linea B</option>
+              <option value="linea3">Linea 3</option>
+              <option value="linea6">Linea 6</option>
+              <option value="linea7">Linea 7</option>
               <option value="admin">admin</option>
+              
             </select>
             <hr>
             <div class="">

@@ -14,7 +14,6 @@
                         Inicio
                     </span>
                 </a>
-
             </li>
             <li class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal">
                 <a href="#">
@@ -25,12 +24,8 @@
                     </i>
                     <span class="nav-text">
                         Mi cuenta
-
-
-
                     </span>
                 </a>
-
             </li>
             <li>
                 <a href="/MetroCDMX/home.php">
@@ -43,7 +38,6 @@
                         Todos los archivos
                     </span>
                 </a>
-
             </li>
             <li class="has-subnav" onclick="tablasss()">
                 <a href="#">
@@ -56,7 +50,6 @@
                         Mis Documentos
                     </span>
                 </a>
-
             </li>
             <li class="has-subnav" onclick="enviar()">
                 <a href="#">
@@ -70,11 +63,7 @@
                     </span>
                 </a>
             </li>
-
-
-
         </ul>
-
         <ul class="logout">
             <li class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal1">
                 <a href="#">
@@ -92,7 +81,5 @@
     </nav>
 </div>
 <script src="/MetroCDMX/js/home.js"></script>
-
 </body>
-
 </html>

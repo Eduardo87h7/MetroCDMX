@@ -4,19 +4,14 @@
   <div class="modal  fade  bd-example-modal-xl" id="myModal5">
     <div class="modal-dialog modal-xl">
       <div class="modal-content">
-
         <!-- Modal Header -->
         <div class="modal-header">
           <h4 class="modal-title">Documentos de la linea B</h4>
-
           <button type="button" class=" btn btn-close btn-danger" data-bs-dismiss="modal"></button>
         </div>
-
         <!-- Modal body -->
         <div class="modal-body">
-
           <div class="container" id="tabla7">
-
             <input class="form-control" id="myInput7" type="text" placeholder="BUSCAR">
             <br>
             <table class="table">
@@ -30,22 +25,20 @@
               </thead>
               <tbody id="myTable7">
                 <?php
-                $archivos = scandir("subidas");
+                $docs = scandir("subidas");
                 $num = 0;
-                for ($i = 2; $i < count($archivos); $i++) {
+                for ($i = 2; $i < count($docs); $i++) {
                   $num++;
                 ?>
                   <p>
                   </p>
-
                   <tr>
                     <th scope="row"><?php echo $num; ?></th>
-                    <td><?php echo $archivos[$i]; ?></td>
-                    <td><a title="Descargar Archivo" href="subidas/<?php echo $archivos[$i]; ?>" download="<?php echo $archivos[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">descargar</span> </a></td>
-                    <td><a title="Eliminar Archivo" href="Eliminar.php?name=subidas/<?php echo $archivos[$i]; ?>" style="color: red; font-size:18px;" onclick="return confirm('El archivo se eliminara permanentemente');"> <span aria-hidden="true">eliminar</span> </a></td>
+                    <td><?php echo $docs[$i]; ?></td>
+                    <td><a title="Descargar" href="subidas/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">descargar</span> </a></td>
+                    <td><a title="Eliminar" href="Eliminar.php?name=subidas/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return confirm('El archivo se eliminara permanentemente');"> <span aria-hidden="true">eliminar</span> </a></td>
                   </tr>
                 <?php } ?>
-
               </tbody>
             </table>
           </div>
@@ -58,7 +51,7 @@
 <script>
   $(document).ready(function() {
     $("#myInput7").on("keyup", function() {
-      var value = $(this).val().toLowerCase();
+      let value = $(this).val().toLowerCase();
       $("#myTable7 tr").filter(function() {
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
       });

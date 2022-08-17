@@ -70,6 +70,7 @@ include("delete.php");
 					</tr>
 				<?php } 
 				?>
+				
 			</tbody>
 		</table>
 	</div>

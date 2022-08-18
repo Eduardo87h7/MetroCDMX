@@ -15,7 +15,7 @@
                     </span>
                 </a>
             </li>
-            <li class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal">
+            <li onclick="usuarios()">
                 <a href="#">
                     <i class="fa  fa-2x">
                         <svg width="16" height="16" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">

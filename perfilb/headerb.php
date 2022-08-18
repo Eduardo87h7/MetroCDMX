@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema METRO</title>
     <link rel="shortcut icon" href="/MetroCDMX/img/tlatelolco.png">
-    <link rel="stylesheet" href="/MetroCDMX/css/homeb.css">
+    <link rel="stylesheet" href="/MetroCDMX/css/home.css">
     <link rel="stylesheet" href="/MetroCDMX/css/stilos.css">
     <link rel="stylesheet" href="/MetroCDMX/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <link href="/MetroCDMX/css/bootstrap.min.css" rel="stylesheet">
     <script src="/MetroCDMX/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 </head>
 
 <body>

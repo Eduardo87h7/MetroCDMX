@@ -1,10 +1,10 @@
-<div class="container" id="tabla3">
+<div class="container" id="mis-doc">
   <input class="form-control" id="myInput3" type="text" placeholder="BUSCAR">
   <br>
   <table class="table table-bordered table-striped table-hover">
     <thead class="thead-dark">
       <tr>
-        <th>AREA</th>
+        <th>AREA tabla mb</th>
         <th>CANTIDAD</th>
       </tr>
     </thead>

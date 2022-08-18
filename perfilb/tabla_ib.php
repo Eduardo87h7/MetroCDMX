@@ -1,36 +1,35 @@
-<div class="container" id="tabla1">
-  <input class="form-control" id="myInput" type="text" placeholder="BUSCAR">
-  <br>
-  <table class="table table-bordered table-striped table-hover">
-    <thead class="thead-dark">
-      <tr>
-        <th>USUARIOS</th>
-        <th>AREA</th>
-        <th>CANTIDAD</th>
-      </tr>
-    </thead>
-    <tbody id="myTable">
-      <tr>
-        <td>USUARIO1</td>
-        <td>LINEA 3</td>
-        <td><a href="#" class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal2">72</a> </td>
-      </tr>
-      <tr>
-        <td>USUARIO2</td>
-        <td>LINEA 6</td>
-        <td><a href="#" class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal3">112</a></td>
-      </tr>
-      <tr>
-        <td>USUARIO3</td>
-        <td>LINEA 7</td>
-        <td><a href="#" class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal4">732</a></td>
-      </tr>
-      <tr>
-        <td>USUARIO4</td>
-        <td>LINEA B</td>
-        <td><a href="#" class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal5">991</a></td>
-      </tr>
-    </tbody>
-  </table>
-  <p>RESULTADOS RECIENTES</p>
-</div>
+<div class="container" id="principal">
+
+
+    <input class="form-control" id="myInput7" type="text" placeholder="BUSCAR">
+    <br>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>num</th>
+          <th>tabla principal</th>
+          <th>Descargar</th>
+          <th>Eliminar</th>
+        </tr>
+      </thead>
+      <tbody id="myTable7">
+        <?php
+        $docs = scandir("subidas");
+        $num = 0;
+        for ($i = 2; $i < count($docs); $i++) {
+          $num++;
+        ?>
+          <p>
+          </p>
+          <tr>
+            <th scope="row"><?php echo $num; ?></th>
+            <td><?php echo $docs[$i]; ?></td>
+            <td><a title="Descargar" href="subidas/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">descargar</span> </a></td>
+            <td><a title="Eliminar" href="Eliminar.php?name=subidas/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return confirm('El archivo se eliminara permanentemente');"> <span aria-hidden="true">eliminar</span> </a></td>
+          </tr>
+        <?php } ?>
+      </tbody>
+    </table>
+
+    <p>RESULTADOS RECIENTES</p>
+  </div>

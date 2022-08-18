@@ -1,10 +1,10 @@
-<div class="container" id="tabla2">
+<div class="container" id="mis_doc>
   <input class="form-control" id="myInput2" type="text" placeholder="BUSCAR">
   <br>
   <table class="table table-bordered table-striped table-hover">
     <thead class="thead-dark">
       <tr>
-        <th>USUARIOS1</th>
+        <th>USUARIOS1 tabla tb</th>
         <th>AREA</th>
         <th>CANTIDAD</th>
       </tr>

@@ -16,6 +16,12 @@ if ($resp == 1) {
 		header("Location: admin.php");
 	}else if ($tipo == "lineab") {
 		header("Location: perfilb.php");
+	}else if ($tipo == "linea3") {
+		header("Location: perfil3.php");
+	}else if ($tipo == "linea6") {
+		header("Location: perfil6.php");
+	}else if ($tipo == "linea7") {
+		header("Location: perfil7.php");
 	}
 } else {
 	echo "<script> alert('Esta cuenta no existe!!');window.location= 'index.php' </script>";

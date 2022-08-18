@@ -68,8 +68,8 @@
     </div>
   </div>
 </div>
-</div>
-</div>
+
+
 <script>
   $(document).ready(function() {
     $("#myInput4").on("keyup", function() {

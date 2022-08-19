@@ -1,7 +1,5 @@
 <div class="container" id="principal">
-
-
-    <input class="form-control" id="myInput7" type="text" placeholder="BUSCAR">
+    <input class="form-control" id="myInput12" type="text" placeholder="BUSCAR">
     <br>
     <table class="table">
       <thead>
@@ -12,7 +10,7 @@
           <th>Eliminar</th>
         </tr>
       </thead>
-      <tbody id="myTable7">
+      <tbody id="myTable12">
         <?php
         $docs = scandir("subidas");
         $num = 0;
@@ -33,3 +31,13 @@
 
     <p>RESULTADOS RECIENTES</p>
   </div>
+  <script>
+  $(document).ready(function() {
+    $("#myInput12").on("keyup", function() {
+      let value = $(this).val().toLowerCase();
+      $("#myTable12 tr").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+      });
+    });
+  });
+</script>

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/MetroCDMX/css/home.css">
     <link rel="stylesheet" href="/MetroCDMX/css/stilos.css">
     <link rel="stylesheet" href="/MetroCDMX/css/bootstrap.min.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="/MetroCDMX/css/bootstrap.min.css" rel="stylesheet">
     <script src="/MetroCDMX/js/bootstrap.bundle.min.js"></script>
 

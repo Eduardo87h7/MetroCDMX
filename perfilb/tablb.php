@@ -2,9 +2,7 @@
  <?php require('./perfilb/infob.php') ?>
  <?php require('./perfilb/tabla_ib.php') ?>
  <?php require('./perfilb/tabla_mb.php') ?>
- <?php require('./layout/envio.php') ?>
-
-
+ <?php require('./perfilb/envio.php') ?>
  </div>
  </div>
  </div>

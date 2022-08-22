@@ -7,7 +7,8 @@
       <div class="card-body">
         <h5 class="card-title">Selecciona y Envia</h5>
         <hr>
-        <form method="POST" action="subir-arch.php" enctype="multipart/form-data">
+        
+        <form method="POST" action="subir-arch.php" action="subir" enctype="multipart/form-data">
           <div class="form-group">
             <label>
               <input required="" type="file" name="file" id="exampleInputFile">
@@ -24,8 +25,8 @@
           </select>
           <br>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Escribe un comentario</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label>Escribe un comentario</label>
+            <textarea class="form-control" id="textoenvio" rows="3"></textarea>
           </div>
       </div>
       <button class="btn btn-primary" type="submit">Cargar Fichero</button>

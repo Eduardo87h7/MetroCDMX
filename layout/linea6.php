@@ -73,7 +73,7 @@
 <script>
   $(document).ready(function() {
     $("#myInput5").on("keyup", function() {
-      var value = $(this).val().toLowerCase();
+      let value = $(this).val().toLowerCase();
       $("#myTable5 tr").filter(function() {
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
       });

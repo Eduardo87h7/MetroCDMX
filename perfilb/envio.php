@@ -11,7 +11,7 @@
         <form method="POST" action="subir-arch.php" action="subir" enctype="multipart/form-data">
           <div class="form-group">
             <label>
-              <input required="" type="file" name="file" id="exampleInputFile">
+              <input required="" type="file" name="file" >
             </label>
           </div>
           <hr>
@@ -29,5 +29,6 @@
             <textarea class="form-control" id="textoenvio" rows="3"></textarea>
           </div>
       </div>
-      <button class="btn btn-primary" type="submit">Cargar Fichero</button>
+      <button class="btn btn-primary" type="submit" onclick="em()">Cargar Fichero</button>
+      
       </form>

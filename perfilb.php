@@ -24,4 +24,8 @@
         document.getElementById("mis-doc").style.display = "none";
         document.getElementById("enviar").style.display = "block";
     }
+    function em() {
+      alert('Archivo subido correctamente');
+      
+    }
 </script>

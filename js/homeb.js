@@ -25,8 +25,6 @@ $(document).ready(function () {
   });
 });
 
-
-
 function salir() {
   window.location = "index.php";
 }
@@ -58,3 +56,5 @@ function enviar2() {
   document.getElementById("enviar").style.display = "none";
   document.getElementById("trabb").innerHTML = "ENVIOS";
 }
+
+

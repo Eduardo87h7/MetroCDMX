@@ -23,9 +23,12 @@
           </select>
           <br>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Escribe un comentario</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="Textarea">Escribe un comentario</label>
+            <textarea name="mensaje"class="form-control" id="Textarea" rows="3"></textarea>
           </div>
       </div>
-      <button class="btn btn-primary" type="submit">Cargar Fichero</button>
+      <button class="btn btn-primary" type="submit" name="men">Cargar Fichero</button>
       </form>
+      <?php
+          include("mens.php");
+          ?>

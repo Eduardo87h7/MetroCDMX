@@ -26,9 +26,9 @@
           <br>
           <div class="form-group">
             <label>Escribe un comentario</label>
-            <textarea class="form-control" id="textoenvio" rows="3"></textarea>
+            <textarea class="form-control" name="textoenvio" id="textoenvio" rows="3"></textarea>
           </div>
       </div>
-      <button class="btn btn-primary" type="submit" onclick="em()">Cargar Fichero</button>
+      <button class="btn btn-primary" type="submit" ">Cargar Fichero</button>
       
       </form>

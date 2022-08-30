@@ -15,7 +15,14 @@
             </label>
           </div>
           <hr>
-          
+          <?php
+date_default_timezone_set('America/Mexico_City');
+$fecha_actual=date("d-m-y H:i:s");
+?>
+
+<input value="lineab" name="linea" > <br>
+<input type="datetime" name="fecha" value="<?=$fecha_actual?>">
+
           <select name="area" class="form-select" aria-label="Default select example">
             <option value="0" style="display:none;"><label>Seleccionar</label></option>
             <option value="linea3">Linea 3</option>
@@ -26,9 +33,9 @@
           <br>
           <div class="form-group">
             <label>Escribe un comentario</label>
-            <textarea class="form-control" name="textoenvio" id="textoenvio" rows="3"></textarea>
+            <textarea class="form-control" name="mensaje" rows="3"></textarea>
           </div>
       </div>
-      <button class="btn btn-primary" type="submit" ">Cargar Fichero</button>
-      
+      <button class="btn btn-primary" type="submit" name="ingresar" >Cargar Fichero</button>
+      </form>
       </form>

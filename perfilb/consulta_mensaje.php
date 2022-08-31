@@ -10,8 +10,7 @@ if ($inc) {
 			$mensajes = $row['mensajes'];
 			$linea = $row['linea'];
 ?>
-			<div>
-			
+			<div>			
 				<div class="toast" data-autohide="false">
 					<div class="toast-header">
 						<strong class="mr-auto text-primary"><?php echo $linea ?></strong>
@@ -23,11 +22,6 @@ if ($inc) {
 					</div>
 				</div>
 			</div>
-
-
-
-
-
 <?php
 		}
 	}

@@ -17,10 +17,10 @@
           <hr>
           <?php
 date_default_timezone_set('America/Mexico_City');
-$fecha_actual=date("d-m-y H:i:s");
+$fecha_actual=date("d-m-y h:i:s");
 ?>
 
-<input value="lineab" name="linea" > <br>
+<input value="LINEA-B" name="linea" > <br>
 <input type="datetime" name="fecha" value="<?=$fecha_actual?>">
 
           <select name="area" class="form-select" aria-label="Default select example">

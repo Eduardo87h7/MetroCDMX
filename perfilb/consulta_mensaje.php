@@ -10,17 +10,17 @@ if ($inc) {
 			$mensajes = $row['mensajes'];
 			$linea = $row['linea'];
 ?>
-			<div>			
-				<div class="toast" data-autohide="false">
-					<div class="toast-header">
-						<strong class="mr-auto text-primary"><?php echo $linea ?></strong>
-						<small class="text-muted"><?php echo $fecha ?></small>
-						<button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
-					</div>
-					<div class="toast-body">
-						<?php echo $mensajes ?>
-					</div>
+			<div>
+				<div class="alert alert-success" role="alert">
+					<strong class="alert-heading"><?php echo $linea ?></str>
+						<hr>
+						<h5><?php echo $mensajes ?></h5>
+						<hr>
+						<p class="mb-0"><?php echo $fecha ?></p>
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
 				</div>
+
 			</div>
 <?php
 		}

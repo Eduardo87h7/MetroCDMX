@@ -27,15 +27,27 @@
                     </span>
                 </a>
             </li>
-            <li class="has-subnav" data-bs-toggle="modal" data-bs-target="#myModal">
-                <a href="#">
+            <li class="has-subnav" >
+                <a href="#" >
                     <i class="fa  fa-2x">
                         <svg width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                         </svg>
                     </i>
-                    <span class="nav-text">
+                    <span class="nav-text" onclick="vermensaje()" >
                         Mensajes
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="/MetroCDMX/home.php">
+                    <i class="fa  fa-2x">
+                        <svg width="16" height="16" fill="currentColor" class="bi bi-folder-fill" viewBox="0 0 16 16">
+                            <path d="M9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.825a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31L.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3zm-8.322.12C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139z" />
+                        </svg>
+                    </i>
+                    <span class="nav-text">
+                        Documentos enviados
                     </span>
                 </a>
             </li>

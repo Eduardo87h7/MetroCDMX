@@ -14,11 +14,15 @@ if ($inc) {
 				<div class="alert alert-success" role="alert">
 					<strong class="alert-heading"><?php echo $linea ?></str>
 						<hr>
-						<h5><?php echo $mensajes ?></h5>
+						<h9><?php echo $mensajes ?></h9>
 						<hr>
 						<p class="mb-0"><?php echo $fecha ?></p>
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
+
+					
+						<a href="eliminarmensaje.php?id=<?php echo $row['id'] ?>" class="btn btn-danger" >Eliminar</a>  
+							
+							
+						
 				</div>
 
 			</div>
@@ -27,3 +31,4 @@ if ($inc) {
 	}
 }
 ?>
+

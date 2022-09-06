@@ -2,9 +2,15 @@
 <?php require('./layout/exit.php') ?>
 <?php require('./layout/agregarUsuarios.php') ?>
 <?php require('./layout/adminav.php') ?>
+
 <?php
 include("delete.php");
 ?>
+
+
+<?php require('./perfilb/vermensaje.php') ?>
+
+
 
 <div id="tabla-usuarios">
 	<table class="table table-bordered table-striped table-hover">
@@ -32,7 +38,6 @@ include("delete.php");
 		<?php } ?>
 	</table>
 </div>
-
 
 
 
@@ -195,6 +200,28 @@ include("delete.php");
 	document.getElementById("linea31").style.display = "none";
 	document.getElementById("linea61").style.display = "none";
 	document.getElementById("linea71").style.display = "none";
+	document.getElementById("vermensaje").style.display = "none";
+
+
+	function vermensajes() {
+		document.getElementById("vermensaje").style.display = "block";
+		document.getElementById("tabla-usuarios").style.display = "none";
+		document.getElementById("tabla-archivos").style.display = "none";
+
+	}
+	function verusuarios() {
+		document.getElementById("vermensaje").style.display = "none";
+		document.getElementById("tabla-usuarios").style.display = "block";
+		document.getElementById("tabla-archivos").style.display = "none";
+
+	}
+	function verarchivos() {
+		document.getElementById("vermensaje").style.display = "none";
+		document.getElementById("tabla-usuarios").style.display = "none";
+		document.getElementById("tabla-archivos").style.display = "block";
+
+	}
+	
 
 	function vistab() {
 		document.getElementById("lineab1").style.display = "block";
@@ -209,12 +236,14 @@ include("delete.php");
 		document.getElementById("linea61").style.display = "none";
 		document.getElementById("linea71").style.display = "none";
 	}
+
 	function vista6() {
 		document.getElementById("lineab1").style.display = "none";
 		document.getElementById("linea31").style.display = "none";
 		document.getElementById("linea61").style.display = "block";
 		document.getElementById("linea71").style.display = "none";
 	}
+
 	function vista7() {
 		document.getElementById("lineab1").style.display = "none";
 		document.getElementById("linea31").style.display = "none";

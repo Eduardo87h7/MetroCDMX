@@ -8,7 +8,7 @@
         <h5 class="card-title">Selecciona y Envia</h5>
         <hr>
 
-        <form method="POST" action="subir-arch.php" action="subir" enctype="multipart/form-data">
+        <form method="POST" action="subir-arch3.php" action="subir" enctype="multipart/form-data">
           <div class="form-group">
             <label>
               <input required="" type="file" name="file">
@@ -31,7 +31,7 @@
             <label>Escribe un comentario</label>
             <textarea class="form-control" name="mensaje" rows="3"></textarea>
           </div>
-          <input value="LINEA-B" name="linea" readonly>
+          <input value="LINEA-3" name="linea" readonly>
       <input type="datetime" name="fecha" value="<?= $fecha_actual ?>" readonly>
       </div>
       <button class="btn btn-primary" type="submit" name="ingresar">Cargar Fichero</button>

@@ -54,7 +54,7 @@
                     </span>
                 </a>
                 </li>
-                <li class="has-subnav" onclick="vermensajes()">
+                <li class="has-subnav" onclick="vermensajes()" >
                 <a href="#">
                     <i class="fa  fa-2x">
                     <svg width="16" height="16" fill="currentColor" class="bi bi-envelope-check-fill" viewBox="0 0 16 16">

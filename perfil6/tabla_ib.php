@@ -1,11 +1,12 @@
-<div class="container" id="principal">
+<div class="caja" id="principal" >
     <input class="form-control" id="myInput12" type="text" placeholder="BUSCAR">
     <br>
+    <div class="caja">
     <table class="table">
       <thead>
         <tr>
           <th>num</th>
-          <th>tabla principal</th>
+          <th>tabla De resultados</th>
           <th>Descargar</th>
           <th>Eliminar</th>
         </tr>
@@ -28,7 +29,7 @@
         <?php } ?>
       </tbody>
     </table>
-
+    </div>
     <p>RESULTADOS RECIENTES</p>
   </div>
   <script>

@@ -1,12 +1,6 @@
 <div class="container" id="mis-doc">
-
-
-
-
   <div id="tabla-archivos">
     <div class="container" id="myTable11">
-
-    
     </div>
     <div id="linea31">
       <input class="form-control" id="myInput11" type="text" placeholder="BUSCAR">

@@ -1,6 +1,6 @@
 <?php require('./perfil6/header.php') ?>
 <?php require('./perfil6/tabl.php') ?>
-<?php require('./perfil6/vermensajeb.php') ?>
+
 <?php require('./layout/exit.php') ?>
 <?php require('./perfil6/nav.php') ?>
 

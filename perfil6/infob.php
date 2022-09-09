@@ -3,7 +3,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">SUBCOORDINACIONES LINEA 3</h4>
+                    <h4 class="modal-title">SUBCOORDINACIONES LINEA 6</h4>
                     <button type="button" class=" btn btn-close btn-danger" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
@@ -25,10 +25,10 @@
                                 Usuaraio ll
                             </td>
                             <td>
-                                Encargado de la linea B
+                                Encargado de la linea 6
                             </td>
                             <td>
-                                Linea B
+                                Linea 6
                             </td>
                         </tr>
                     </table>

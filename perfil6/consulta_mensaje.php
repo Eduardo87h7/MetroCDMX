@@ -1,7 +1,7 @@
 <?php
 $inc = include("conexion.php");
 if ($inc) {
-	$consulta = "SELECT * FROM mensaje";
+	$consulta = "SELECT * FROM linea6 order by fecha desc";
 	$resultado = mysqli_query($conex, $consulta);
 	if ($resultado) {
 		while ($row = $resultado->fetch_array()) {

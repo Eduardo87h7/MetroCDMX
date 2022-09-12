@@ -19,7 +19,7 @@
           date_default_timezone_set('America/Mexico_City');
           $fecha_actual = date("d-m-y h:i:s");
           ?>
-          <select name="area" class="form-select" aria-label="Default select example">
+          <select name="area3" class="form-select" aria-label="Default select example">
             <option value="0" style="display:none;"><label>Seleccionar</label></option>
             <option value="linea3">Linea 3</option>
             <option value="lineab">Linea B</option>

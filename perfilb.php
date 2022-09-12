@@ -1,6 +1,5 @@
 <?php require('./perfilb/headerb.php') ?>
 <?php require('./perfilb/tablb.php') ?>
-
 <?php require('./layout/exit.php') ?>
 <?php require('./perfilb/nav.php') ?>
 <script>

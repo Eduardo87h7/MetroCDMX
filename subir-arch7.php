@@ -1,5 +1,5 @@
 <?php
-$tipo 	= $_POST["area"];
+$tipo 	= $_POST["area7"];
 $fichero = $_FILES["file"];
 copy($_FILES['file']['tmp_name'], "env7/" . $_FILES['file']['name']);
 move_uploaded_file($fichero["tmp_name"], "$tipo/" .$fichero["name"]);
@@ -16,10 +16,11 @@ if ($conn->connect_errno) {
 if (isset($_REQUEST['ingresar'])) {
 
 
+    $tipo 	= $_POST["area7"];
     $fecha = $_POST['fecha'];
     $mensaje =$_POST['mensaje'];
     $linea =$_POST['linea'];
-    $consulta = "INSERT INTO mensaje(fecha, mensajes, linea) VALUES('$fecha','$mensaje','$linea')";
+    $consulta = "INSERT INTO $tipo (fecha, mensajes, linea) VALUES('$fecha','$mensaje','$linea')";
     $ejecutar = mysqli_query($conn, $consulta);
     if ($ejecutar) {
         echo '<script> alert("correcto")</script>';

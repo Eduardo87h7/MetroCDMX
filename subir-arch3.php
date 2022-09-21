@@ -1,7 +1,7 @@
 <?php
 $tipo 	= $_POST["area3"];
 $fichero = $_FILES["file"];
-copy($_FILES['file']['tmp_name'], "env3/" . $_FILES['file']['name']);
+copy($_FILES['file']['tmp_name'], "./files/copy/env3/" . $_FILES['file']['name']);
 move_uploaded_file($fichero["tmp_name"], "$tipo/" .$fichero["name"]);
 header("Location: " . $_SERVER["HTTP_REFERER"]);
 

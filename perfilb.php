@@ -1,7 +1,7 @@
-<?php require('./perfilb/headerb.php') ?>
-<?php require('./perfilb/tablb.php') ?>
+<?php require('./templates/perfiles/perfilb/headerb.php') ?>
+<?php require('./templates/perfiles/perfilb/tablb.php') ?>
 <?php require('./layout/exit.php') ?>
-<?php require('./perfilb/nav.php') ?>
+<?php require('./templates/perfiles/perfilb/nav.php') ?>
 <script>
     document.getElementById("principal").style.display = "block";
     document.getElementById("mis-doc").style.display = "none";

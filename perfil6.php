@@ -1,8 +1,8 @@
-<?php require('./perfil6/header.php') ?>
-<?php require('./perfil6/tabl.php') ?>
+<?php require('./templates/perfiles/perfil6/header.php') ?>
+<?php require('./templates/perfiles/perfil6/tabl.php') ?>
 
 <?php require('./layout/exit.php') ?>
-<?php require('./perfil6/nav.php') ?>
+<?php require('./templates/perfiles/perfil6/nav.php') ?>
 
 <script>
     document.getElementById("principal").style.display = "block";

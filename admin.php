@@ -8,7 +8,7 @@ include("delete.php");
 ?>
 
 
-<?php require('./perfilb/vermensaje.php') ?>
+<?php require('./templates/perfiles/perfilb/vermensajeb.php') ?>
 
 
 
@@ -66,7 +66,7 @@ include("delete.php");
 			</thead>
 			<tbody id="myTable0">
 				<?php
-				$docs = scandir("linea3/");
+				$docs = scandir("./files/docs/linea3/");
 				$num = 0;
 				$i = 2;
 				for ($i; $i < count($docs); $i++) {
@@ -78,8 +78,8 @@ include("delete.php");
 						<th><?php echo $num; ?></th>
 						<td>Linea 3</td>
 						<td><?php echo $docs[$i]; ?></td>
-						<td><a title="Descargar" href="linea3/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>
-						<td><a title="Eliminar" href="Eliminar.php?name=linea3/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return alert('El archivo se eliminara permanentemente');"> <span aria-hidden="true">Eliminar</span> </a></td>
+						<td><a title="Descargar" href="./files/docs/linea3/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>
+						<td><a title="Eliminar" href="Eliminar.php?name=./files/docs/linea3/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return alert('El archivo se eliminara permanentemente');"> <span aria-hidden="true">Eliminar</span> </a></td>
 					</tr>
 				<?php }
 				?>
@@ -101,7 +101,7 @@ include("delete.php");
 			</thead>
 			<tbody id="myTablel6">
 				<?php
-				$docs = scandir("linea6/");
+				$docs = scandir("./files/docs/linea6/");
 				$num = 0;
 				$i = 2;
 				for ($i; $i < count($docs); $i++) {
@@ -113,8 +113,8 @@ include("delete.php");
 						<th><?php echo $num; ?></th>
 						<td>Linea 6</td>
 						<td><?php echo $docs[$i]; ?></td>
-						<td><a title="Descargar" href="linea6/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>
-						<td><a title="Eliminar" href="Eliminar.php?name=linea6/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return alert('El archivo se eliminara permanentemente');"> <span aria-hidden="true">Eliminar</span> </a></td>
+						<td><a title="Descargar" href="./files/docs/linea6/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>
+						<td><a title="Eliminar" href="Eliminar.php?name=./files/docs/linea6/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return alert('El archivo se eliminara permanentemente');"> <span aria-hidden="true">Eliminar</span> </a></td>
 					</tr>
 				<?php }
 				?>
@@ -136,7 +136,7 @@ include("delete.php");
 			</thead>
 			<tbody id="myTablel7">
 				<?php
-				$docs = scandir("linea7/");
+				$docs = scandir("./files/docs/linea7/");
 				$num = 0;
 				$i = 2;
 				for ($i; $i < count($docs); $i++) {
@@ -148,8 +148,8 @@ include("delete.php");
 						<th><?php echo $num; ?></th>
 						<td>Linea 7</td>
 						<td><?php echo $docs[$i]; ?></td>
-						<td><a title="Descargar" href="linea7/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>
-						<td><a title="Eliminar" href="Eliminar.php?name=linea7/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return alert('El archivo se eliminara permanentemente');"> <span aria-hidden="true">Eliminar</span> </a></td>
+						<td><a title="Descargar" href="./files/docs/linea7/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>
+						<td><a title="Eliminar" href="Eliminar.php?name=./files/docs/linea7/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return alert('El archivo se eliminara permanentemente');"> <span aria-hidden="true">Eliminar</span> </a></td>
 					</tr>
 				<?php }
 				?>
@@ -171,7 +171,7 @@ include("delete.php");
 			</thead>
 			<tbody id="myTablelb">
 				<?php
-				$docs = scandir("lineab/");
+				$docs = scandir("./files/docs/lineab/");
 				$num = 0;
 				$i = 2;
 				for ($i; $i < count($docs); $i++) {
@@ -183,8 +183,8 @@ include("delete.php");
 						<th><?php echo $num; ?></th>
 						<td>Linea B</td>
 						<td><?php echo $docs[$i]; ?></td>
-						<td><a title="Descargar" href="lineab/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>
-						<td><a title="Eliminar" href="Eliminar.php?name=subidas/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return alert('El archivo se eliminara permanentemente');"> <span aria-hidden="true">Eliminar</span> </a></td>
+						<td><a title="Descargar" href="./files/docs/lineab/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>
+						<td><a title="Eliminar" href="Eliminar.php?name=./files/docs/lineab/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return alert('El archivo se eliminara permanentemente');"> <span aria-hidden="true">Eliminar</span> </a></td>
 					</tr>
 				<?php }
 				?>

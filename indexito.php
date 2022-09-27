@@ -1,1 +1,0 @@
-<?php require('./templates/perfiles/perfilb/mensaje.php') ?>

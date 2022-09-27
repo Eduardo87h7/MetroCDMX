@@ -1,3 +1,1 @@
-
-<?php require('layout/envio.php') ?>
-
+<?php require('../../templates/perfiles/perfil3/infob.php') ?>

@@ -1,13 +1,4 @@
-/subidas
-/archivos
-/linea3
-/linea6
-/linea7
-/lineab
-/env3
-/env6
-/env7
-/envb
+
 *.docx
 *.pdf
 *.mp3  
@@ -15,4 +6,5 @@
 *.png
 *.jpg   
 *.sql
+*.SQL
  

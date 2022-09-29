@@ -7,9 +7,9 @@
 include("delete.php");
 ?>
 
-
-<?php require('./templates/perfiles/perfilb/vermensajeb.php') ?>
-
+<div id="vermensaje">
+<?php require('./layout/mensaje.php') ?>
+</div>
 
 
 <div id="tabla-usuarios">

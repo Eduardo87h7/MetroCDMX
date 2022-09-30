@@ -17,7 +17,7 @@ if ($inc) {
 						<h9><?php echo $mensajes ?></h9>
 						<hr>
 						<p class="mb-0"><?php echo $fecha ?></p>
-						<a href="eliminarmensaje.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">Eliminar</a>
+						<a href="./templates/perfiles/perfil7/eliminarmensaje.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">Eliminar</a>
 				</div>
 			</div>
 <?php

@@ -1,7 +1,7 @@
 <div class="container" id="principal">
     <input class="form-control" id="myInput12" type="text" placeholder="BUSCAR">
     <br>
-    <table class="table">
+    <table class="table table-bordered table-striped table-hover">
       <thead>
         <tr>
           <th>num</th>

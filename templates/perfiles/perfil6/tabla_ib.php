@@ -2,7 +2,7 @@
     <input class="form-control" id="myInput12" type="text" placeholder="BUSCAR">
     <br>
     <div class="caja">
-    <table class="table">
+    <table class="table table-bordered table-striped table-hover">
       <thead>
         <tr>
           <th>num</th>
@@ -21,7 +21,7 @@
           <p>
           </p>
           <tr>
-            <th scope="row"><?php echo $num; ?></th>
+            <td scope="row"><?php echo $num; ?></td>
             <td><?php echo $docs[$i]; ?></td>
             <td><a title="Descargar" href="./files/copy/env6/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">descargar</span> </a></td>
             <td><a title="Eliminar" href="Eliminar.php?name=./files/copy/env6/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return confirm('El archivo se eliminara permanentemente');"> <span aria-hidden="true">eliminar</span> </a></td>

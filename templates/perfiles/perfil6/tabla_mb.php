@@ -5,7 +5,7 @@
     <div id="linea31">
       <input class="form-control" id="myInput11" type="text" placeholder="BUSCAR">
       <br>
-      <table class="table table-bordered table-striped table-hover">
+      <table class="table  table-striped table-hover">
         <thead>
           <tr>
             <th>Numero</th>
@@ -27,7 +27,7 @@
             <p>
             </p>
             <tr>
-              <th><?php echo $num; ?></th>
+              <td><?php echo $num; ?></td>
               <td>Linea 6</td>
               <td><?php echo $docs[$i]; ?></td>
               <td><a title="Descargar" href="./files/docs/linea6/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>

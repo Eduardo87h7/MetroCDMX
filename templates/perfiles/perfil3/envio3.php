@@ -2,7 +2,7 @@
   <div class="container mt-3">
     <div class="card shadow-lg  rounded">
       <div class="card-header">
-        <a href="/MetroCDMX/perfil3.php" class="btn btn-primary">regresar</a> Envio de Informacion
+        <a href="/MetroCDMX/perfil3.php" class="btn btn-warning">regresar</a> Envio de Informacion
       </div>
       <div class="card-body">
         <h5 class="card-title">Selecciona y Envia</h5>

@@ -131,10 +131,10 @@ background-color:#e8e820;
 }
 
 .trabajo {
-float: inline-end;
-background: #ffffff;
-inline-size: 81%;
-block-size: 94%;
+  float: right;
+  background: #ffffff;
+  width: 81%;
+  height: 94%;
 }
 @font-face {
   font-family: 'Titillium Web';

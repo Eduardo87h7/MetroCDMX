@@ -24,7 +24,7 @@ if ($resp == 1) {
 		header("Location: ../my/perfil7.php");
 	}
 } else {
-	echo "<script> alert('Esta cuenta no existe!!');window.location= 'index.php' </script>";
+	echo "<script> alert('Esta cuenta no existe!!');window.location= '/MetroCDMX/' </script>";
 }
 
 

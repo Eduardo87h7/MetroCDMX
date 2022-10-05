@@ -10,7 +10,7 @@
         </div>
         <div class="card-body">
             <h5 class="card-title">Resultado de mensajes linea 3</h5>
-            <p class="card-text"><?php require('./templates/perfiles/perfil3/vermensaje.php') ?></p>     
+            <p class="card-text"><?php require('../templates/perfiles/perfil3/vermensaje.php') ?></p>     
         </div>
     </div>
     <hr>
@@ -20,7 +20,7 @@
         </div>
         <div class="card-body">
             <h5 class="card-title">Resultado de mensajes linea B</h5>
-            <p class="card-text"><?php require('./templates/perfiles/perfilb/vermensaje.php') ?></p>
+            <p class="card-text"><?php require('../templates/perfiles/perfilb/vermensaje.php') ?></p>
         </div>
     </div>
 
@@ -30,7 +30,7 @@
         </div>
         <div class="card-body">
             <h5 class="card-title">Resultado de mensajes linea 6 </h5>
-            <p class="card-text"><?php require('./templates/perfiles/perfil6/vermensaje.php') ?></p>
+            <p class="card-text"><?php require('../templates/perfiles/perfil6/vermensaje.php') ?></p>
         </div>
     </div>
     <div class="card">
@@ -39,7 +39,7 @@
         </div>
         <div class="card-body">
             <h5 class="card-title">Resultado de mensajes linea 7 </h5>
-            <p class="card-text"><?php require('./templates/perfiles/perfil7/vermensaje.php') ?></p>
+            <p class="card-text"><?php require('../templates/perfiles/perfil7/vermensaje.php') ?></p>
         </div>
     </div>
 

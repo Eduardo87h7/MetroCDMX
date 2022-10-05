@@ -31,7 +31,7 @@
                     <nav class="navbar navbar-light bg-light justify-content-between">
                         <img src="/MetroCDMX/img/STC_Metro.webp" width="20%" alt="">
 
-                        <p class="navbar-brand sub">SUBCOORDINACIONES TLATELOLCO LINEA 3</P>
+                        <p class="navbar-brand sub">SUBCOORDINACIONES TLATELOLCO LINEA 7</P>
 
                         <img src="/MetroCDMX/img/tlatelolco.png" width="70" alt="">
                     </nav>

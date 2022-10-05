@@ -4,7 +4,7 @@
     <nav class="main-menu">
         <ul>
             <li>
-                <a href="/MetroCDMX/perfil6.php">
+                <a href="/MetroCDMX/my/perfil6.php">
                     <i class="fa fa-2x">
                         <svg width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />

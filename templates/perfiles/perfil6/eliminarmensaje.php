@@ -9,6 +9,6 @@ $sql="DELETE FROM linea6  WHERE id='$id'";
 $query=mysqli_query($conn,$sql);
 
     if($query){
-        Header("Location: ../../../admin.php");
+        Header("Location: ../../../my/admin.php");
     }
 ?>

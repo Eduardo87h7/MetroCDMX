@@ -24,7 +24,7 @@
         </thead>
         <tbody id="myTable11">
           <?php
-          $docs = scandir("./files/docs/linea7/");
+          $docs = scandir("../files/docs/linea7/");
           $num = 0;
           $i = 2;
           for ($i; $i < count($docs); $i++) {
@@ -34,10 +34,10 @@
             </p>
             <tr>
               <th><?php echo $num; ?></th>
-              <td>Linea 3</td>
+              <td>Linea 7</td>
               <td><?php echo $docs[$i]; ?></td>
-              <td><a title="Descargar" href="./files/docs/linea7/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>
-              <td><a title="Eliminar" href="Eliminar.php?name=./files/docs/linea7/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return alert('El archivo se eliminara permanentemente');"> <span aria-hidden="true">Eliminar</span> </a></td>
+              <td><a title="Descargar" href="../files/docs/linea7/<?php echo $docs[$i]; ?>" download="<?php echo $docs[$i]; ?>" style="color: blue; font-size:18px;"> <span aria-hidden="true">Descargar</span> </a></td>
+              <td><a title="Eliminar" href="Eliminar.php?name=../files/docs/linea7/<?php echo $docs[$i]; ?>" style="color: red; font-size:18px;" onclick="return alert('El archivo se eliminara permanentemente');"> <span aria-hidden="true">Eliminar</span> </a></td>
             </tr>
           <?php }
           ?>

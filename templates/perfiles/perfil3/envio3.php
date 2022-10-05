@@ -1,5 +1,5 @@
-<div class="container" id="enviar">
-  <div class="container mt-3">
+<div class="container-fluid" id="enviar">
+  
     <div class="card shadow-lg  rounded">
       <div class="card-header">
         <a href="/MetroCDMX/perfil3.php" class="btn btn-warning">regresar</a> Envio de Informacion
@@ -21,10 +21,10 @@
           ?>
           <select name="area3" class="form-select" aria-label="Default select example">
             <option value="0" style="display:none;"><label>Seleccionar</label></option>
-            <option value="./files/docs/linea3/">Linea 3</option>
-            <option value="./files/docs/lineab/">Linea B</option>
-            <option value="./files/docs/linea6/">Linea 6</option>
-            <option value="./files/docs/linea7/">Linea 7</option>
+            <option value="../files/docs/linea3/">Linea 3</option>
+            <option value="../files/docs/lineab/">Linea B</option>
+            <option value="../files/docs/linea6/">Linea 6</option>
+            <option value="../files/docs/linea7/">Linea 7</option>
           </select>
           <br>
           <div class="form-group">

@@ -27,6 +27,7 @@
 
         <div class="container-fluid header">
             <div class="row">
+                
                 <div class="col-md-12 col-sm-8">
                     <nav class="navbar navbar-light bg-light justify-content-between">
                         <img src="/MetroCDMX/img/STC_Metro.webp" width="20%" alt="">

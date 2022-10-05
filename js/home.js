@@ -28,7 +28,7 @@ $(document).ready(function () {
 
 
 function salir() {
-  window.location = "index.php";
+  window.location = "/MetroCDMX/";
 }
 
 document.getElementById("tabla2").style.display = "none";

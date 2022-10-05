@@ -1,3 +1,4 @@
+
 <div class="container" id="principal">
     <input class="form-control" id="myInput12" type="text" placeholder="BUSCAR">
     <br>
